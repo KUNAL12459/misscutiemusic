@@ -21,16 +21,16 @@
     },
     "BOT_USERNAME": {
       "description": "Username of your bot without @",
-      "required": True,
+      "required": True
       "value": ""
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps",
-      "required": "13107755"
+      "required": ""
     },
     "API_HASH": {
       "description": "Get this value from from my.telegram.org/apps",
-      "required": "07b7e5c7f84973fd948bda3cd53f5715"
+      "required": ""
     },
     "OWNER_USERNAME": {
       "description": "Username of the person who will known as owner of the bot, without @",
