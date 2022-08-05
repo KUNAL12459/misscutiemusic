@@ -1,7 +1,7 @@
 {
-  "name": "Misscutie music",
+  "name": "misscutiemusic",
   "logo": "https://telegra.ph/file/0da69e7dc8cfaf10c0baf.jpg",
-  "description": "ɪ ᴀᴍ ᴀ ᴍᴜsɪᴄ ʙᴏᴛ, ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.",
+  "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "misscutie"],
   "repository": "https://github.com/Team-techno/misscutiemusic",
   "stack": "container",
@@ -16,34 +16,34 @@
     },
     "BOT_NAME": {
       "description": "A name for your MusicPlayer Bot",
-      "required": "true",
+      "required": false,
       "value": ""
     },
     "BOT_USERNAME": {
       "description": "Username of your bot without @",
-      "required": "true"
+      "required": false,
       "value": ""
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps",
-      "required": ""
+      "required": false
     },
     "API_HASH": {
       "description": "Get this value from from my.telegram.org/apps",
-      "required": ""
+      "required": false
     },
     "OWNER_USERNAME": {
       "description": "Username of the person who will known as owner of the bot, without @",
       "required": false,
-      "value": "Surya12p"
+      "value": "surya12p"
     },
     "SUPPORT_GROUP": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
-      "value": "Misscuitesupport"
+      "value": "misscuitesupport"
     },
     "SUDO_USERS": {
-      "description": "User IDs of the users who will counted as admin everywhere (if more than one separate them by space) get from @misscuitebot start and type /id.",
+      "description": "User IDs of the users who will counted as admin everywhere (if more than one separate them by space).",
       "required": true,
       "value": "5191956205"
     },
@@ -63,7 +63,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": false,
-      "value": "60"
+      "value": "90"
     }
   }
 }
